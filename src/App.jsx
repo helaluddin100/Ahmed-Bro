@@ -381,35 +381,35 @@ function App() {
       </div>
 
       {/* <!-- POWER SECTION --> */}
-      <section class="generic-section power-section overflow-hidden" id="about">
-        <div class="container">
-          <div class="row">
+      <section className="generic-section power-section overflow-hidden" id="about">
+        <div className="container">
+          <div className="row">
             <div
-              class="col-lg-6 col-md-6 col-12 order-md-1 order-2 d-flex align-items-center text-md-left text-center"
+              className="col-lg-6 col-md-6 col-12 order-md-1 order-2 d-flex align-items-center text-md-left text-center"
               data-aos="slide-right"
             >
-              <div class="content-box">
-                <h5 class="d-inline-block">Harness the power of LAM</h5>
+              <div className="content-box">
+                <h5 className="d-inline-block">Harness the power of LAM</h5>
                 <h2>LAM Powered Agent</h2>
-                <ul class="list-unstyled mb-0">
-                  <li class="d-flex">
-                    <i class="fa-solid fa-circle"></i>
-                    <p class="mb-0">
+                <ul className="list-unstyled mb-0">
+                  <li className="d-flex">
+                    <i className="fa-solid fa-circle"></i>
+                    <p className="mb-0">
                       Large Action Models (LAMs) are designed for orchestrating
                       sequences of actions to achieve specific goals
                     </p>
                   </li>
-                  <li class="d-flex">
-                    <i class="fa-solid fa-circle"></i>
-                    <p class="mb-0">
+                  <li className="d-flex">
+                    <i className="fa-solid fa-circle"></i>
+                    <p className="mb-0">
                       Unlike Large Language Models (LLMs), LAMs focus on
                       executing tasks like appointment booking or form
                       completion directly within applications or systems.
                     </p>
                   </li>
-                  <li class="d-flex">
-                    <i class="fa-solid fa-circle"></i>
-                    <p class="mb-0">
+                  <li className="d-flex">
+                    <i className="fa-solid fa-circle"></i>
+                    <p className="mb-0">
                       LLMs excel in understanding and generating natural
                       language, while LAMs extend this capability to practical
                       task completion.
@@ -419,13 +419,13 @@ function App() {
               </div>
             </div>
             <div
-              class="col-lg-6 col-md-6 col-12 order-md-2 order-1 d-flex align-items-xl-end align-items-center justify-content-md-end justify-content-center"
+              className="col-lg-6 col-md-6 col-12 order-md-2 order-1 d-flex align-items-xl-end align-items-center justify-content-md-end justify-content-center"
               data-aos="slide-left"
             >
-              <div class="image-box">
-                <figure class="mb-0">
+              <div className="image-box">
+                <figure className="mb-0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/images/power-section-img.svg"
                     alt=""
                   />
@@ -439,28 +439,28 @@ function App() {
       {/* <!-- ADVANTAGE SECTION --> */}
 
       <section
-        class="generic-section advantage-section overflow-hidden"
+        className="generic-section advantage-section overflow-hidden"
         data-aos="fade-up"
       >
-        <div class="container-fluid">
-          <div class="advantage-inner-box">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center text-md-left text-center justify-content-md-start justify-content-center">
-                <div class="image-box">
-                  <figure class="mb-0">
+        <div className="container-fluid">
+          <div className="advantage-inner-box">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center text-md-left text-center justify-content-md-start justify-content-center">
+                <div className="image-box">
+                  <figure className="mb-0">
                     <img
-                      class="img-fluid"
+                      className="img-fluid"
                       src="assets/images/advantage-section-img.svg"
                       alt=""
                     />
                   </figure>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-12 order-md-1 order-2 text-md-left text-center">
-                <div class="content-box">
-                  <h5 class="d-inline-block">Limitless possibilities</h5>
+              <div className="col-lg-6 col-md-6 col-12 order-md-1 order-2 text-md-left text-center">
+                <div className="content-box">
+                  <h5 className="d-inline-block">Limitless possibilities</h5>
                   <h2>API-less Advantage</h2>
-                  <p class="mb-0">
+                  <p className="mb-0">
                     The LAM Agent operates independently of API connections,
                     granting it unrestricted access to all resources. This
                     capability enables the agent to perform tasks seamlessly
@@ -475,17 +475,17 @@ function App() {
         </div>
       </section>
       {/* <!-- BROWSE SECTION --> */}
-      <section class="generic-section browse-section overflow-hidden">
-        <div class="container">
-          <div class="row">
+      <section className="generic-section browse-section overflow-hidden">
+        <div className="container">
+          <div className="row">
             <div
-              class="col-lg-6 col-md-6 col-12 order-md-1 order-2 d-flex align-items-center text-md-left text-center"
+              className="col-lg-6 col-md-6 col-12 order-md-1 order-2 d-flex align-items-center text-md-left text-center"
               data-aos="slide-right"
             >
-              <div class="content-box">
-                <h5 class="d-inline-block">Earn passive daily rewards</h5>
+              <div className="content-box">
+                <h5 className="d-inline-block">Earn passive daily rewards</h5>
                 <h2>Browse-2-Earn</h2>
-                <p class="mb-0">
+                <p className="mb-0">
                   Introducing Browse-2-Earn, users can earn AGNT Points by
                   automatically sharing their browsing data via browser
                   extension to contribute to the training of our LAM. Through
@@ -498,13 +498,13 @@ function App() {
               </div>
             </div>
             <div
-              class="col-lg-6 col-md-6 col-12 order-md-2 order-1 d-flex align-items-center justify-content-center"
+              className="col-lg-6 col-md-6 col-12 order-md-2 order-1 d-flex align-items-center justify-content-center"
               data-aos="slide-left"
             >
-              <div class="image-box">
-                <figure class="mb-0">
+              <div className="image-box">
+                <figure className="mb-0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/images/browse-section-img.svg"
                     alt=""
                   />
@@ -516,50 +516,50 @@ function App() {
       </section>
       {/* <!-- REWARD SECTION --> */}
       <section
-        class="advantage-section reward-section overflow-hidden"
+        className="advantage-section reward-section overflow-hidden"
         id="reward"
       >
-        <div class="container-fluid">
-          <div class="advantage-inner-box" data-aos="fade-up">
-            <div class="row">
-              <div class="col-12">
-                <div class="heading text-center">
-                  <h2 class="mb-0 text-white">
+        <div className="container-fluid">
+          <div className="advantage-inner-box" data-aos="fade-up">
+            <div className="row">
+              <div className="col-12">
+                <div className="heading text-center">
+                  <h2 className="mb-0 text-white">
                     How to get rewarded for your data
                   </h2>
                 </div>
               </div>
             </div>
-            <div class="content-outer d-lg-flex">
-              <div class="left-box order-lg-1 order-2" data-aos="slide-right">
-                <p class="text-white text-lg-right text-center">
+            <div className="content-outer d-lg-flex">
+              <div className="left-box order-lg-1 order-2" data-aos="slide-right">
+                <p className="text-white text-lg-right text-center">
                   <b>Valuable Contribution:</b> Your data plays a crucial role
                   in enhancing the accuracy of our LAM.
                 </p>
-                <p class="mb-0 text-white text-lg-right text-center">
+                <p className="mb-0 text-white text-lg-right text-center">
                   <b>Earn AGNT Points</b> Receive rewards for voluntarily
                   sharing your browsing data through our Browse-2-Earn program.
                 </p>
               </div>
               <div
-                class="image-box d-flex align-items-end order-lg-2 order-3"
+                className="image-box d-flex align-items-end order-lg-2 order-3"
                 data-aos="fade-up"
               >
-                <figure class="mb-0">
+                <figure className="mb-0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/images/reward-section-img.svg"
                     alt=""
                   />
                 </figure>
               </div>
-              <div class="right-box order-lg-3 order-2" data-aos="slide-left">
-                <p class="text-white text-lg-left text-center">
+              <div className="right-box order-lg-3 order-2" data-aos="slide-left">
+                <p className="text-white text-lg-left text-center">
                   <b>Secure Data Sharing:</b> Install our Chrome extension to
                   securely share your browsing data and contribute to the AI
                   revolution.
                 </p>
-                <p class="mb-0 text-white text-lg-left text-center">
+                <p className="mb-0 text-white text-lg-left text-center">
                   <b>Stake in the Future:</b> By participating, you'll earn a
                   stake in shaping the future of AI technology and its
                   advancements.
@@ -570,17 +570,17 @@ function App() {
         </div>
       </section>
       {/* <!-- PRIVACY SECTION --> */}
-      <section class="generic-section privacy-section overflow-hidden">
-        <div class="container">
-          <div class="row">
+      <section className="generic-section privacy-section overflow-hidden">
+        <div className="container">
+          <div className="row">
             <div
-              class="col-lg-6 col-md-6 col-12 order-md-1 order-2 d-flex align-items-start text-md-left text-center"
+              className="col-lg-6 col-md-6 col-12 order-md-1 order-2 d-flex align-items-start text-md-left text-center"
               data-aos="slide-right"
             >
-              <div class="content-box">
-                <h5 class="d-inline-block">Control Your Data</h5>
+              <div className="content-box">
+                <h5 className="d-inline-block">Control Your Data</h5>
                 <h2>Privacy is our Priority</h2>
-                <p class="mb-0">
+                <p className="mb-0">
                   With growing concerns over data privacy and the unethical use
                   of personal information by large tech entities, alternative
                   methods for data tracking are necessary. Recognizing the value
@@ -592,13 +592,13 @@ function App() {
               </div>
             </div>
             <div
-              class="col-lg-6 col-md-6 col-12 order-md-2 order-1 d-flex align-items-center justify-content-md-end justify-content-center"
+              className="col-lg-6 col-md-6 col-12 order-md-2 order-1 d-flex align-items-center justify-content-md-end justify-content-center"
               data-aos="slide-left"
             >
-              <div class="image-box">
-                <figure class="mb-0">
+              <div className="image-box">
+                <figure className="mb-0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/images/privacy-section-img.svg"
                     alt=""
                   />
@@ -610,47 +610,47 @@ function App() {
       </section>
       {/* <!-- REFERAL SECTION --> */}
       <section
-        class="generic-section referal-section overflow-hidden"
+        className="generic-section referal-section overflow-hidden"
         id="referal"
         data-aos="fade-up"
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-12 order-md-1 order-2">
-              <div class="left-box">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-12 order-md-1 order-2">
+              <div className="left-box">
                 <div
-                  class="list top d-flex align-items-center justify-content-between"
+                  className="list top d-flex align-items-center justify-content-between"
                   data-aos="fade-down"
                 >
-                  <h5 class="mb-0 text-white">Person</h5>
-                  <h5 class="mb-0 text-white">AGNT Points (%)</h5>
+                  <h5 className="mb-0 text-white">Person</h5>
+                  <h5 className="mb-0 text-white">AGNT Points (%)</h5>
                 </div>
                 <div
-                  class="list d-flex align-items-center justify-content-between"
+                  className="list d-flex align-items-center justify-content-between"
                   data-aos="fade-down"
                 >
-                  <p class="mb-0">You</p>
-                  <p class="mb-0">100%</p>
+                  <p className="mb-0">You</p>
+                  <p className="mb-0">100%</p>
                 </div>
                 <div
-                  class="list d-flex align-items-center justify-content-between"
+                  className="list d-flex align-items-center justify-content-between"
                   data-aos="fade-down"
                 >
-                  <p class="mb-0">Direct Referraal (1st Connection)</p>
-                  <p class="mb-0">10%</p>
+                  <p className="mb-0">Direct Referraal (1st Connection)</p>
+                  <p className="mb-0">10%</p>
                 </div>
                 <div
-                  class="list d-flex align-items-center justify-content-between"
+                  className="list d-flex align-items-center justify-content-between"
                   data-aos="fade-down"
                 >
-                  <p class="mb-0">Referral’s Referral (2nd Connection)</p>
-                  <p class="mb-0">5%</p>
+                  <p className="mb-0">Referral’s Referral (2nd Connection)</p>
+                  <p className="mb-0">5%</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-12 order-md-2 order-1 text-md-left text-center">
-              <div class="content-box">
-                <h5 class="d-inline-block">Referral for recurring rewards</h5>
+            <div className="col-lg-6 col-md-6 col-12 order-md-2 order-1 text-md-left text-center">
+              <div className="content-box">
+                <h5 className="d-inline-block">Referral for recurring rewards</h5>
                 <h2>Referral Forever</h2>
                 <p>
                   For each person you directly refer, you will forever
@@ -664,12 +664,12 @@ function App() {
         </div>
       </section>
       {/* <!-- DISTRIBUTION SECTION --> */}
-      <section class="distribution-section overflow-hidden" data-aos="fade-up">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="image-outer">
-                <figure class="mb-0">
+      <section className="distribution-section overflow-hidden" data-aos="fade-up">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="image-outer">
+                <figure className="mb-0">
                   <img
                     src="assets/images/distribution-sectioon-img.svg"
                     alt=""
@@ -681,28 +681,28 @@ function App() {
         </div>
       </section>
       {/* <!-- GET STARTED SECTION --> */}
-      <section class="get-started overflow-hidden">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center">
-              <div class="heading d-flex align-items-center justify-content-center">
-                <h2 class="mb-0">How To Get Started</h2>
-                <figure class="mb-0">
+      <section className="get-started overflow-hidden">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 text-center">
+              <div className="heading d-flex align-items-center justify-content-center">
+                <h2 className="mb-0">How To Get Started</h2>
+                <figure className="mb-0">
                   <img
                     src="assets/images/get-started-question-icon.png"
                     alt=""
                   />
                 </figure>
               </div>
-              <div class="plan-box-outer">
+              <div className="plan-box-outer">
                 <div
-                  class="plan-box hover-effect position-relative"
+                  className="plan-box hover-effect position-relative"
                   data-aos="slide-right"
                 >
-                  <h3 class="number text-white position-absolute">1</h3>
+                  <h3 className="number text-white position-absolute">1</h3>
                   <figure>
                     <img
-                      class="img-fluid"
+                      className="img-fluid"
                       src="assets/images/get-started-box-icon-1.svg"
                       alt=""
                     />
@@ -710,13 +710,13 @@ function App() {
                   <p>Download the AGENTS.AI extension (coming soon)</p>
                 </div>
                 <div
-                  class="plan-box hover-effect position-relative"
+                  className="plan-box hover-effect position-relative"
                   data-aos="fade-up"
                 >
-                  <h3 class="number text-white position-absolute">2</h3>
+                  <h3 className="number text-white position-absolute">2</h3>
                   <figure>
                     <img
-                      class="img-fluid"
+                      className="img-fluid"
                       src="assets/images/get-started-box-icon-2.svg"
                       alt=""
                     />
@@ -724,13 +724,13 @@ function App() {
                   <p>Turn On the extension</p>
                 </div>
                 <div
-                  class="plan-box hover-effect position-relative"
+                  className="plan-box hover-effect position-relative"
                   data-aos="fade-up"
                 >
-                  <h3 class="number text-white position-absolute">3</h3>
+                  <h3 className="number text-white position-absolute">3</h3>
                   <figure>
                     <img
-                      class="img-fluid"
+                      className="img-fluid"
                       src="assets/images/get-started-box-icon-3.svg"
                       alt=""
                     />
@@ -738,13 +738,13 @@ function App() {
                   <p>Connect your wallet to receive your AGNT Points</p>
                 </div>
                 <div
-                  class="plan-box hover-effect position-relative"
+                  className="plan-box hover-effect position-relative"
                   data-aos="slide-left"
                 >
-                  <h3 class="number text-white position-absolute">4</h3>
+                  <h3 className="number text-white position-absolute">4</h3>
                   <figure>
                     <img
-                      class="img-fluid"
+                      className="img-fluid"
                       src="assets/images/get-started-box-icon-4.svg"
                       alt=""
                     />
@@ -757,13 +757,13 @@ function App() {
         </div>
       </section>
       {/* <!-- FAQ SECTION --> */}
-      <section class="faq-section overflow-hidden" id="faq">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="text-center">frequently asked questions</h2>
-              <div class="row">
-                <div class="col-xl-8 col-lg-9 mx-auto">
+      <section className="faq-section overflow-hidden" id="faq">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <h2 className="text-center">frequently asked questions</h2>
+              <div className="row">
+                <div className="col-xl-8 col-lg-9 mx-auto">
                   {/* <!-- Accordion --> */}
                   <div className="accordion" data-aos="fade-up">
                     {/* Accordion item 1 */}
@@ -894,24 +894,24 @@ function App() {
         </div>
       </section>
       {/* <!-- FOOTER --> */}
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="list">
-                <div class="footer-logo-outer d-md-none d-block text-center">
-                  <a class="footer-logo" href="index.html">
-                    <figure class="mb-0">
+      <footer className="footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="list">
+                <div className="footer-logo-outer d-md-none d-block text-center">
+                  <a className="footer-logo" href="index.html">
+                    <figure className="mb-0">
                       <img
-                        class="img-fluid"
+                        className="img-fluid"
                         src="assets/images/logo.svg"
                         alt=""
                       />
                     </figure>
                   </a>
                 </div>
-                <ul class="list-unstyled mb-0 d-flex align-items-center justify-content-between">
-                  <li class="active">
+                <ul className="list-unstyled mb-0 d-flex align-items-center justify-content-between">
+                  <li className="active">
                     <a href="index.html">Home</a>
                   </li>
                   <li>
@@ -920,11 +920,11 @@ function App() {
                   <li>
                     <a href="#reward">Reward</a>
                   </li>
-                  <li class="footer-logo-outer d-md-block d-none">
-                    <a class="footer-logo" href="index.html">
-                      <figure class="mb-0">
+                  <li className="footer-logo-outer d-md-block d-none">
+                    <a className="footer-logo" href="index.html">
+                      <figure className="mb-0">
                         <img
-                          class="img-fluid"
+                          className="img-fluid"
                           src="assets/images/logo.svg"
                           alt=""
                         />
@@ -938,7 +938,7 @@ function App() {
                     <a href="#faq">FAQ</a>
                   </li>
                   <li>
-                    <a class="download" href="#">
+                    <a className="download" href="#">
                       Join Waitlist
                     </a>
                   </li>
@@ -949,12 +949,12 @@ function App() {
         </div>
       </footer>
       {/* <!-- FOOTER COPYRIGHT --> */}
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="footer-bottom-inner text-center">
-                <p class="mb-0 text-white">
+      <div className="footer-bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="footer-bottom-inner text-center">
+                <p className="mb-0 text-white">
                   Agent.AI all copyright reserved ©2024
                 </p>
               </div>
