@@ -1,0 +1,6 @@
+{
+  "extends": ["react-app", "airbnb"],
+  "rules": {
+    // Your custom ESLint rules here
+  }
+}
