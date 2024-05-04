@@ -15,7 +15,7 @@ function App() {
   const [activeCollapse, setActiveCollapse] = useState("");
 
   const toggleCollapse = (collapseId) => {
-    setActiveCollapse(activeCollapse === collapseId ? "" : collapseId);
+    setActiveCollapse(activeCollapse === collapseId ? '' : collapseId);
   };
 
   const [isOpen, setIsOpen] = useState(false);
@@ -560,7 +560,7 @@ function App() {
                   revolution.
                 </p>
                 <p className="mb-0 text-white text-lg-left text-center">
-                  <b>Stake in the Future:</b> By participating, you'll earn a
+                  <b>Stake in the Future:</b> By participating, you&apos;ll earn a
                   stake in shaping the future of AI technology and its
                   advancements.
                 </p>
